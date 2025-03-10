@@ -1,0 +1,50 @@
+# Arquivos e diretórios padrão do Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+*.venv
+*.env
+
+# Configurações do IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Dependências instaladas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testes e cobertura de código
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Builds e distribuições
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+*.pid
