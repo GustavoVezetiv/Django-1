@@ -82,3 +82,48 @@ secrets.json
 migrations/
 staticfiles/
 media/
+
+# =====================================
+# CONFIGURAÇÃO PARA FRONTEND
+# =====================================
+
+# ---- NODE.JS & NPM/YARN/Pnpm ----
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ---- REACT & NEXT.JS ----
+.next/
+out/
+
+# ---- TYPESCRIPT ----
+*.tsbuildinfo
+
+# ---- CSS/Tailwind ----
+*.css.map
+*.scssc
+*.sassc
+*.lessc
+.postcss-cache/
+
+# ---- BUNDLERS E BUILD ----
+public/
+dist/
+.cache/
+.nyc_output/
+coverage/
+webpack-stats.json
+.vite/
+
+# ---- TESTES E FERRAMENTAS DE FRONTEND ----
+jest/
+cypress/screenshots/
+cypress/videos/
+
+# ---- ARQUIVOS GERADOS EM HTML ----
+*.min.js
+*.min.css
+*.map
+*.gzip
+*.br
