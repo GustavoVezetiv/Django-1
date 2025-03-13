@@ -20,6 +20,9 @@ django.setup()
 from django.contrib import admin
 from django.urls import path, include 
 
+from django.conf.urls import handler404, handler500
+from core import views
+
 from core.views import index, contato, produto
 
 
@@ -32,4 +35,6 @@ urlpatterns = [
     path('', include('core.urls')),
 ]  
    
- 
+handler404 = views.error_404
+handler500 = views.error_500
+
