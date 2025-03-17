@@ -6,6 +6,7 @@ from django.template import loader
 
 from .models import Produto
 
+""" teste de push no TRAE, e teste de palavras chave em portugues"""
 # Create your views here.
 def index(request):
     produtos = Produto.objects.all()
