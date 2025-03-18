@@ -127,4 +127,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')# verificar se precisar remov
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+LOGOUT_REDIRECT_URL = 'index'
+
 """ aaaa """
