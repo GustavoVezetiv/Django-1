@@ -26,7 +26,8 @@ SECRET_KEY = "django-insecure-07u9y^r71*mb3rpvy0zj#qe_4blf32^1fyaqk8q%*)*w687zle
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] # www.geekuniversity.com.br
+
 
 
 # Application definition
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -129,4 +131,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 LOGOUT_REDIRECT_URL = 'index'
 
-""" aaaa """
+#teste de alter
